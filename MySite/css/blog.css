@@ -1,0 +1,125 @@
+.background-section-shop2 {
+    background-image: url(../img/heading-pages-05.jpg);
+    width: 100%;
+    min-height: 239px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-section-shop2 h2 {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+
+.post-item h4>a {
+    color: black;
+    text-decoration: none;
+}
+
+.post-item-info span {
+    color: #888888;
+    font-size: 13px;
+}
+
+.post-item-info p {
+    font-size: 15px;
+    color: #888888;
+    margin-top: 2%;
+}
+
+.post-item-info a {
+    color: black;
+}
+
+.abs-span {
+    position: absolute;
+    color: #fff;
+    background-color: black;
+    top: 65%;
+    left: 1px;
+}
+
+.post-item {
+    position: relative;
+    margin-top: 5%;
+}
+
+.category {
+    margin-top: 17%;
+}
+
+.category ul li a {
+    color: #888888;
+}
+
+.mini-contents img {
+    width: 40%;
+}
+
+.mini-content-info a {
+    font-size: 15px;
+    color: black;
+}
+
+.mini-content-info {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.mini-content-info span {
+    font-size: 12px;
+    color: #888888;
+}
+
+.mini-content {
+    margin-top: 9%;
+}
+
+.archive ul li a {
+    color: black;
+}
+
+h4 {
+    color: #333333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.right-contents {
+    margin-top: 17%;
+    padding-left: 3%;
+}
+
+.category ul li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+
+.mini-contents {
+    margin-top: 25%;
+}
+
+.archive {
+    margin-top: 23%;
+}
+
+.archive ul li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.archive ul li a {
+    font-size: 15px;
+    color: #888888;
+}

@@ -1,0 +1,59 @@
+.background-section-shop1 {
+    background-image: url(../img/heading-pages-06.jpg);
+    width: 100%;
+    min-height: 239px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-section-shop1 h2 {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 7%;
+}
+
+.main-content input {
+    padding-right: 22px!important;
+    padding-left: 22px!important;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+
+.contact-btn {
+    width: 160px;
+    height: 43px;
+    border-radius: 23px;
+    color: #fff;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+iframe {
+    width: 100%;
+}
+
+.main-content h3 {
+    font-size: 25px;
+    color: #333333;
+}
+
+form {
+    padding-top: 3%;
+}

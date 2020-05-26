@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.4.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/shopStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+</head>
+
+<body>
+    <header class="container-header">
+        <div class="container-fluid mainHeader">
+
+            <div class="topbar d-flex">
+                <div class="topbar-social col-md-3 ">
+                    <a href="#"><i class="mdi mdi-facebook"></i></a>
+                    <a href="#"><i class="mdi mdi-instagram"></i></a>
+                    <a href="#"><i class="mdi mdi-pinterest"></i></a>
+                    <a href="#"><i class="mdi mdi-snapchat"></i></a>
+                    <a href="#"><i class="mdi mdi-youtube"></i></a>
+                </div>
+
+                <span class="topbar-span col-md-6 text-center">Free shipping for standard order over $100</span>
+
+                <div class="topbar-right col-md-3">
+                    <span>
+                                fashe@example.com
+                            </span>
+                    <div class="topbar-right-select">
+                        <select id="select-topbar">
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-logo-menu d-flex">
+
+            <div class="site-logo col-4">
+                <img src="img/logo.webp" alt="fashe">
+            </div>
+
+            <div class="site-options-section col-6">
+
+                <nav class="menu">
+                    <ul class="site-main-menu d-flex text-center ">
+                        <li><a href="home.html" id="dropDown">Home</a>
+                            <ul id="drop">
+                                <li>
+                                    <a href="home.html">Homepage v1</a></li>
+                                <li>
+                                    <a href="home-02.html">Homepage v2</a></li>
+                                <li>
+                                    <a href="home.html">Homepage v3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop.html">Sale</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="logo-menu-icons d-flex col-2">
+                <div class="header-first-icon">
+                    <a href="#">
+                        <img src="img/icon-header-01.png" alt="icon">
+                    </a>
+                </div>
+
+                <div class="header-second-icon">
+                    <img src="img/icon-header-02.png" alt="icon">
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="container-fluid mobile-app d-none ">
+        <div class="wrap-mobile d-flex">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="d-flex logo-menu-m">
+
+                <div class="header-first-icon-m">
+                    <a href="#">
+                        <img src="img/icon-header-01.png" alt="icon">
+                    </a>
+                </div>
+
+                <div class="header-second-icon-m">
+                    <img src="img/icon-header-02.png" alt="icon">
+
+                </div>
+
+                <div>
+                    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+                                                    <div class="animated-icon1"><span></span><span></span><span></span></div>
+                                                  </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="wrap-mobile-content">
+            <nav class="navbar navbar-light amber lighten-4 mb-4">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <span class="first-span-m">Free shipping for standard order over $100</span>
+                        </li>
+                        <li class="nav-item second-span-m">
+                            <span>
+                                                        fashe@example.com
+                                                   </span>
+
+                            <select id="select-topbar-m">
+                                                                                            <option value="USD">USD</option>
+                                                                                            <option value="EUR">EUR</option>
+                                                        </select>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <div class="topbar-social-m d-flex ">
+                                    <a href="#"><i class="mdi mdi-facebook"></i></a>
+                                    <a href="#"><i class="mdi mdi-instagram"></i></a>
+                                    <a href="#"><i class="mdi mdi-pinterest"></i></a>
+                                    <a href="#"><i class="mdi mdi-snapchat"></i></a>
+                                    <a href="#"><i class="mdi mdi-youtube"></i></a>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item-o">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item-o">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item-o">
+                            <a class="nav-link" href="shop.html">Sale</a>
+                        </li>
+                        <li class="nav-item-o">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item-o">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item-o">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </nav>
+        </div>
+        <!--Navbar-->
+
+    </div>
+    <section class="background-section-shop">
+        <div class="container-fluid">
+            <h2>card</h2>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="leftbar">
+                    <div class="categor">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li>All</li>
+                            <li>Women</li>
+                            <li>Men</li>
+                            <li>Kids</li>
+                            <li>Accesories</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="range-bar">
+                        <h4>Filter</h4>
+
+                        <hr>
+                        <h4>Price</h4>
+                        <div id="slider-range"></div>
+                        <div class="d-flex filter-range">
+                            <div class="filter-button">
+                                <button class="filter">Filter</button>
+                            </div>
+                            <div class="d-flex input-range">
+                                <label for="amount">Range:</label>
+                                <input type="text" id="amount" readonly style="border:0; color:#555555; font-weight:bold;">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="color-bar">
+                        <h4>Color</h4>
+                        <div class="colors">
+                            <ul class="d-flex colors-area">
+                                <li>
+                                    <div class="color1 color">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color2 color">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color3 color">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color4 color">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color5 color">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color6 color">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color7 color">
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="leftbar-input">
+                        <input type="text" placeholder="Search products"><button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="right-bar">
+                    <div class="right-bar-head">
+                        <div>
+                            <div class="default-sort d-flex">
+
+                                <div class=" select-outline">
+
+                                    <select class="mdb-select md-form md-outline colorful-select dropdown-primary">
+                                                <option value="" disabled selected>Default Sorting</option>
+                                                <option value="1">Popularity</option>
+                                                <option value="2">Price: low to high</option>
+                                                <option value="3">Price: high to low</option>
+                                              </select>
+
+                                </div>
+                                <div class="price-select">
+                                    <select class="mdb-select md-form md-outline colorful-select dropdown-primary">
+                                                <option value="" disabled selected>Price</option>
+                                                <option value="1">$0.00 - $50.00</option>
+                                                <option value="2">$50.00 - $100.00</option>
+                                                <option value="3">$100.00 - $150.00</option>
+                                                <option value="3">$150.00 - $200.00</option>
+                                                <option value="3">$200.00+</option>
+                                              </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="slick-items">
+                    <div class="row">
+
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn">add to card</button>
+                            </div>
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50" id="slick">
+                            <img src="img/item-03.jpg" class="imgHover" id="slickImg" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div1">
+
+                                <button class="btn">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-05.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class=" btn">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-07.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn ">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn ">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn ">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn ">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn ">add to card</button>
+                            </div>
+
+                        </div>
+                        <div class="slick col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <img src="img/item-02.jpg" class="imgHover" alt="item">
+                            <div class="slick-content">
+                                <a href="#">Hershel supply co 25I</a>
+                                <br>
+                                <span>$75.00</span>
+                            </div>
+                            <div class="opacity-div" id="opacity-div">
+
+                                <button class="btn ">add to card</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer-container ">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-12 col-sm-12 col-md-3">
+                        <div class="get-in-touch">
+                            <h4>get in touch</h4>
+                            <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>
+                            <span class="topbar-social">
+                                                                    <a href="#"><i class="mdi mdi-facebook"></i></a>
+                                                                    <a href="#"><i class="mdi mdi-instagram"></i></a>
+                                                                    <a href="#"><i class="mdi mdi-pinterest"></i></a>
+                                                                    <a href="#"><i class="mdi mdi-snapchat"></i></a>
+                                                                    <a href="#"><i class="mdi mdi-youtube"></i></a>
+                                                                </span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="categories col-12 col-sm-4 col-md-4">
+                                <h4>Categories</h4>
+                                <ul>
+                                    <li>Men</li>
+                                    <li>Women</li>
+                                    <li>Dresses</li>
+                                    <li>Sunglasses</li>
+                                </ul>
+                            </div>
+
+                            <div class="links col-12 col-sm-4 col-md-4">
+                                <h4>links</h4>
+                                <ul>
+                                    <li>Search</li>
+                                    <li>About us</li>
+                                    <li>Contact us</li>
+                                    <li>Returns</li>
+                                </ul>
+                            </div>
+                            <div class="help col-12 col-sm-4 col-md-4">
+                                <h4>help</h4>
+                                <ul>
+                                    <li>Track Order</li>
+                                    <li>Return</li>
+                                    <li>Shipping</li>
+                                    <li>FAQs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-3">
+                        <div class="email-button">
+                            <h4>newsletter</h4>
+                            <input type="email" placeholder="email@example.com">
+                            <br>
+                            <button class="btn btn-dark">Subscribe</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="credit-cards d-flex t-center">
+            <a href="#"><img src="img/paypal (1).png" alt="cart"></a>
+            <a href="#"><img src="img/visa (1).png" alt="cart"></a>
+            <a href="#"><img src="img/mastercard (1).png" alt="cart"></a>
+            <a href="#"><img src="img/paypal.png" alt="cart"></a>
+            <a href="#"><img src="img/mastercard.png" alt="cart"></a>
+        </div>
+        <div class="footer-words">
+            Copyright © 2017 Colorlib. All rights reserved.
+        </div>
+
+
+    </footer>
+
+    <script src="js/range.js"></script>
+    <script src="js/slick.js"></script>
+</body>
+
+</html>

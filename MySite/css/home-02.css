@@ -1,0 +1,66 @@
+        .site-main-menu {
+            margin-left: 12%;
+        }
+        
+        .topbar-right {
+            margin-right: 10%!important;
+        }
+        
+        .container-logo-menu {
+            justify-content: center;
+        }
+        
+        .site-logo {
+            margin-right: 15%;
+        }
+        
+        .carousel-item h2 {
+            font-size: 80px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .three-small-item {
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .parallax0 {
+            background-image: url("../img/bg-video-01.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: left;
+            ;
+        }
+        
+        .overlay0 {
+            padding-top: 350px;
+            padding-bottom: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .products-info {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .products {
+            margin-top: 6%;
+        }
+        
+        .products h2 {
+            font-weight: bold;
+        }
+        
+        .products ul>li>a {
+            color: black;
+        }
+        
+        .site-logo img {
+            width: 100%;
+        }

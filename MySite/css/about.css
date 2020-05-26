@@ -1,0 +1,58 @@
+.background-section-shop1 {
+    background-image: url(../img/heading-pages-06.jpg);
+    width: 100%;
+    min-height: 239px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-section-shop1 h2 {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.right-side {
+    margin-top: 9%;
+    line-height: 1, 7;
+    color: #888888;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    padding-bottom: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.left-side {
+    margin-top: 5%;
+}
+
+.content2 {
+    border-left: 3px solid #e2e2e2;
+    padding-left: 4%;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+.img-hover img:hover {
+    transform: scale(1.1);
+}
+
+.img-hover {
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+.img-hover img {
+    transition: 0.4s ease-in-out;
+}
